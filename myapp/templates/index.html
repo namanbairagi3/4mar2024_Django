@@ -15,14 +15,15 @@
                 align-items: center;
                 justify-content: center;
             }
-        </style>
+        </style>  
     </head>
     <body>
         <div class="container">
             <form method="post" action="{% url 'submit_form' %}" class="offset-3 col-6"> 
                 {% csrf_token %}
                 <div class="text-center">
-                    <img src="https://ewaybillgst.gov.in/Captcha.aspx" />
+                    <img src="https://mphc.gov.in/captcha_new/captcha.php?cache=39577961712136279197" />
+                    <!--<img src="https://ewaybillgst.gov.in/Captcha.aspx" />-->
                 </div>
                 <div class="mb-3">
                     <label for="catchaText" class="form-label"></label>
